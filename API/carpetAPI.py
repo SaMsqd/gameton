@@ -62,7 +62,6 @@ class Carpet(Base):
         :param kwargs: тут инфа по ковру из ответа на сервер
         """
         super().__init__()
-        self.path = self.base_path + '/play/magcarp/player/move'
         self.pos_x = kwargs.get('x')
         self.pos_y = kwargs.get('y')
         self.velocity = kwargs.get('velocity')
