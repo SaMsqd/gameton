@@ -1,0 +1,2 @@
+class BadAnswer(Exception):
+    pass
